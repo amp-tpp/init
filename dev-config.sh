@@ -11,8 +11,8 @@ read -sp 'GH Password: ' passvar
 }
 
 echo Clone psi results
-git clone https://$uservar:$passvar@github.com/transparent-psi/transparent-psi-results.git > /dev/null
+git clone --quiet https://$uservar:$passvar@github.com/transparent-psi/transparent-psi-results.git > /dev/null
 echo Clone psi images
-git clone https://$uservar:$passvar@github.com/transparent-psi/transparent-psi-images.git > /dev/null
+git clone --quiet https://$uservar:$passvar@github.com/transparent-psi/transparent-psi-images.git > /dev/null
 echo Clone psi languages
-git clone https://$uservar:$passvar@github.com/transparent-psi/transparent-psi-languages.git > /dev/null
+git clone --quiet https://$uservar:$passvar@github.com/transparent-psi/transparent-psi-languages.git > /dev/null
