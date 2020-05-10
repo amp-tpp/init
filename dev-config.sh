@@ -1,3 +1,5 @@
+echo Clean psi enviroment
+/bin/rm -rf *
 read -p 'GH Username: ' uservar
 read -sp 'GH Password: ' passvar
 {
