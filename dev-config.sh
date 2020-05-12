@@ -29,5 +29,5 @@ cd transparent-psi-images/demo && npm i --silent > /dev/null && cd ../../
 echo Install images/production
 cd transparent-psi-images/production && npm i --silent > /dev/null && cd ../../
 echo Install process management service
-npm i -g pm2
+npm i --silent -g pm2 > /dev/null
 echo Happy hacking!
