@@ -30,4 +30,6 @@ echo Install images/production
 cd transparent-psi-images/production && npm i --silent > /dev/null && cd ../../
 echo Install process management service
 npm i --silent -g pm2 > /dev/null
+echo Install http server
+npm i --silent -g http-server > /dev/null
 echo Happy hacking!
